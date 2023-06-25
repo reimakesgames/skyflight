@@ -1,0 +1,9 @@
+[package]
+name = "shiro/skyflight"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+goodsignal = "stravant/goodsignal@0.2.1"
+fusion = "elttob/fusion@0.2.0"

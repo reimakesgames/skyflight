@@ -1,0 +1,16 @@
+modified-repo:
+- '*'
+
+modified-client:
+- src/client/**/*
+
+modified-server:
+- src/server/**/*
+
+modified-api:
+- src/shared/**/*
+
+modified-dependencies:
+- wally.toml
+- wally.lock
+- aftman.toml

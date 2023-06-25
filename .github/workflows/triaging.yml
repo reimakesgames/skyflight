@@ -1,0 +1,14 @@
+name: triaging
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  AddTriage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: needs-triage
